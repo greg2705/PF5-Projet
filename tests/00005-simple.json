@@ -1,0 +1,81 @@
+{
+  "space": [ "Empty" ],
+  "trees": [
+    {
+      "tree_position": [ 197.3343453578042, 438.7345580099811 ],
+      "branches": 7
+    },
+    {
+      "tree_position": [ 394.89325189488335, 751.9195136800899 ],
+      "branches": 16
+    },
+    {
+      "tree_position": [ 466.21105204660813, 789.0485812528183 ],
+      "branches": 9
+    },
+    {
+      "tree_position": [ 600.3517904800772, 432.35537156074776 ],
+      "branches": 14
+    },
+    {
+      "tree_position": [ 328.58193929055824, 784.671313105908 ],
+      "branches": 4
+    },
+    {
+      "tree_position": [ 358.5046279318037, 526.6350125891216 ],
+      "branches": 3
+    },
+    {
+      "tree_position": [ 667.5532605120825, 574.9296215318358 ],
+      "branches": 10
+    },
+    {
+      "tree_position": [ 473.92576656878583, 128.10298779728583 ],
+      "branches": 9
+    },
+    {
+      "tree_position": [ 678.7112361795072, 10.440782601098752 ],
+      "branches": 6
+    },
+    {
+      "tree_position": [ 69.51155726536329, 748.1811075001835 ],
+      "branches": 7
+    },
+    {
+      "tree_position": [ 283.2533782529263, 386.7511117906116 ],
+      "branches": 5
+    },
+    {
+      "tree_position": [ 713.1012525926717, 733.7547418443623 ],
+      "branches": 4
+    },
+    {
+      "tree_position": [ 66.21132021504843, 672.8620594101639 ],
+      "branches": 12
+    }
+  ],
+  "microcodes": [],
+  "teams": [
+    {
+      "team_identifier": 0,
+      "robots": [
+        {
+          "robot_identifier": 0,
+          "robot_team_identifier": 0,
+          "robot_position": [ 259.3925571736962, 153.60811631611693 ],
+          "robot_spaceship": [ 259.3925571736962, 153.60811631611693 ],
+          "robot_angle": 5.113913257351739,
+          "robot_speed": 1.0,
+          "robot_energy": 0,
+          "robot_score": 0,
+          "robot_bonus": 0,
+          "robot_down": false
+        }
+      ],
+      "spaceship": [ 259.3925571736962, 153.60811631611693 ]
+    }
+  ],
+  "visibility": 100.0,
+  "epoch": 0,
+  "end_of_time": 100000
+}

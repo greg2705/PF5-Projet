@@ -1,0 +1,37 @@
+{
+  "space": [ "Empty" ],
+  "trees": [
+    {
+      "tree_position": [ 203.01383217855775, 1.4379283708085964 ],
+      "branches": 17
+    },
+    {
+      "tree_position": [ 41.605085756700646, 302.09607879724007 ],
+      "branches": 11
+    }
+  ],
+  "microcodes": [],
+  "teams": [
+    {
+      "team_identifier": 0,
+      "robots": [
+        {
+          "robot_identifier": 0,
+          "robot_team_identifier": 0,
+          "robot_position": [ 261.30095855882064, 521.6727854137466 ],
+          "robot_spaceship": [ 261.30095855882064, 521.6727854137466 ],
+          "robot_angle": 3.4922179596611183,
+          "robot_speed": 1.0,
+          "robot_energy": 0,
+          "robot_score": 0,
+          "robot_bonus": 0,
+          "robot_down": false
+        }
+      ],
+      "spaceship": [ 261.30095855882064, 521.6727854137466 ]
+    }
+  ],
+  "visibility": 100.0,
+  "epoch": 0,
+  "end_of_time": 100000
+}

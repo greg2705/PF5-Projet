@@ -1,0 +1,20 @@
+(library
+ (name lambdaLib)
+ (ocamlopt_flags :standard)
+ (inline_tests)
+ (flags :standard -w -27-26-32)
+ (preprocess (pps ppx_deriving_yojson lwt_ppx ppx_inline_test))
+ (modules graph lambdaMan lambdaServer
+          world worldGenerator visualizer communication decision space game
+          priorityQueue ext \ lambdaDriver
+  )
+ (libraries cmdliner lwt lwt.unix yojson ppx_deriving_yojson graphics threads.posix)
+)
+
+(executable
+  (name lambdaDriver)
+  (public_name lambda)
+  (preprocess (pps ppx_deriving_yojson lwt_ppx ppx_inline_test))
+  (libraries lambdaLib)
+  (modules lambdaDriver)
+)
