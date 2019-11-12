@@ -10,7 +10,7 @@ open Cohttp
 open Cohttp_lwt_unix
 
 let base =
-  "http://localhost:8000"
+  "http://lms.hackojo.org"
 
 let register_uri =
   Uri.of_string (base ^ "/register")
